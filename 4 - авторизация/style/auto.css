@@ -1,0 +1,87 @@
+* {
+    --var-fontfamily1: 'Caveat', cursive;
+    --var-fontfamily2: 'Press Start 2P', cursive;
+    --var-background: #d9eac7;
+    --var-form: #36374B;
+    --var-buttonregistr: #839972;
+    --var-buttonauto: #E8DBCB;
+}
+
+body {
+    background-color: var(--var-background);
+}
+
+.form {
+    width: 420px;
+    height: auto;
+    background-color: var(--var-form);
+    text-align: left;
+    align-items: left;
+    border-radius: 30px;
+    border: none;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    padding-left: 30px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+    box-shadow: 10px 10px 20px rgb(0, 0, 0);
+}
+
+.content p {
+    font-family: var(--var-fontfamily1);
+    font-size: 40px;
+    color: aliceblue;
+}
+
+.database {
+    margin-bottom: 25px;
+}
+
+.database p {
+    font-family: var(--var-fontfamily2);
+    color: var(--var-buttonauto);
+    font-size: 12px;
+}
+
+.database input {
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #e9e9e9;
+}
+
+.reg {
+    width: auto;
+    height: 50px;
+    background-color: var(--var-buttonregistr);
+    border: none;
+    border-radius: 15px;
+    font-family: var(--var-fontfamily2);
+    color: var(--var-buttonauto);
+}
+
+.reg:hover {
+    width: 225px;
+    height: 60px;
+    transition: 0.7s;
+    background-color: #587045;
+}
+
+.nazad {
+    width: auto;
+    height: 50px;
+    background-color: #181a3e;
+    border: none;
+    border-radius: 15px;
+    font-family: var(--var-fontfamily2);
+    color: var(--var-buttonauto);
+}
+
+.nazad:hover {
+    width: auto;
+    height: 60px;
+    background-color: #0a0b27;
+    transition: 0.7s;
+}
